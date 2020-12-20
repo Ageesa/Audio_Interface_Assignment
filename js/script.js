@@ -61,7 +61,7 @@ sfxc.pause()
 sfxb.pause()
 }
 let playCn = function() {
-sfxm.play()
+sfxm.pause()
 sfxi.pause()
 sfxs.pause()
 sfxt.pause()
