@@ -1,0 +1,129 @@
+body{
+    background: linear-gradient(-45deg, #e66465, #cf6ad8,#cc45f5, #9a64fd, #6466fd,#51abff, #26b7db, #72e2ae ); 
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 30s ease-in-out infinite;
+    }
+    
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+        font-size: 4rem;
+        text-align: center;
+        margin: 50px auto;
+    }
+    
+    h2{display: block;
+        color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+        
+    }
+    
+    @keyframes change {
+        0%{
+            background-position: 0% 50%;
+        }
+       50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    
+    .container{
+        max-width: 1000px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    /*popup*/
+    .popup{
+        height:300px;
+        align-items: center;
+        background-color: coral 1.10;
+    
+    }
+    .popupshow{
+        height: 300px;
+        visibility: visible;
+        align-items: center;
+        background-color: coral;
+      
+    }
+    .destinations {
+        display: block;
+        margin: 20px auto;
+    height:250px;
+    width: 50%;
+    }
+    
+    /*fLag*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #2196F3;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+      }
+    
+    .flg:hover {
+        animation:shake 0.8s linear infinite;
+        cursor: pointer;
+    }
+    
+    @keyframes shake {
+        from {
+          transform: rotate(0deg);
+        }        
+        to{
+           transform: rotate(5deg);
+        }
+    }
+    
+     /*flag by ids - sizing */ 
+     #mxflg {
+          max-width: 50%;
+          display: block;
+         margin: 0 auto;
+      }
+    #inflg {
+        max-width: 50%;
+        display: block;
+       margin: 0 auto;
+    }
+    #spflg {
+        max-width: 50%;
+        display: block;
+       margin: 0 auto;
+    }
+    #cnflg {
+        max-width: 50%;
+        display: block;
+       margin: 0 auto;
+    }
+    #tnflg {
+        max-width: 50%;
+        display: block;
+       margin: 0 auto;
+    }
+    #brflg {
+        max-width: 50%;
+        display: block;
+       margin: 0 auto;
+    }
+    button{
+        align-self: baseline;
+        margin: auto;
+    }
+    #ps{
+        display: block;
+        margin: 0 auto;
+    }
