@@ -24,7 +24,7 @@ let pauseAll = function(){
     sfxt.pause()
     sfxc.pause()
     sfxb.pause()
-    player.style.display="none";
+    player.style.display="none";// Player hidden
 }
 
 // Function to Play a music for a country 
@@ -35,8 +35,8 @@ let playMex = function() { //Music for Mexico
         sfxt.pause()
         sfxc.pause()
         sfxb.pause()
-        elePics.src="images/mexico.jpg";
-        player.style.display="block";
+        elePics.src="images/mexico.jpg";//Pop up desination pic : Mexico
+        player.style.display="block";// Player made visible
 }
 
 let playInd = function() { //Music for India
@@ -46,8 +46,8 @@ let playInd = function() { //Music for India
     sfxc.pause()
     sfxb.pause()
     sfxi.play()
-    elePics.src="images/india.jpg";
-    player.style.display="block";
+    elePics.src="images/india.jpg";//Pop up desination pic : India 
+    player.style.display="block";// Player made visible
 }
 
 let playSpn = function() { //Music for Spain
@@ -57,8 +57,8 @@ sfxt.play()
 sfxc.pause()
 sfxb.pause()
  sfxs.play()
- elePics.src="images/spain.jpg";
- player.style.display="block";
+ elePics.src="images/spain.jpg";//Pop up desination pic : Spain
+ player.style.display="block";// Player made visible
 }
 let playTnz = function() { //Music for Tanzania
 sfxm.pause()
@@ -67,8 +67,8 @@ sfxs.pause()
 sfxt.play()
 sfxc.pause()
 sfxb.pause()
-elePics.src="images/africa.jpg";
-player.style.display="block";
+elePics.src="images/africa.jpg";//Pop up desination pic : Africa
+player.style.display="block";// Player made visible
 }
 
 let playCn = function() { // Music for China
@@ -78,8 +78,8 @@ sfxs.pause()
 sfxt.pause()
 sfxc.play()
 sfxb.pause()
-elePics.src="images/china.jpg";
-player.style.display="block";
+elePics.src="images/china.jpg";//Pop up desination pic : China
+player.style.display="block";// Player made visible
 }
 
 let playBl = function() { // Music for Brazil
@@ -89,8 +89,8 @@ sfxs.pause()
 sfxt.pause()
 sfxc.pause()
 sfxb.play()
-elePics.src="images/samba.jpg";
-player.style.display="block";
+elePics.src="images/samba.jpg";//Pop up desination pic : Brazil
+player.style.display="block";// Player made visible
  
 }
 
