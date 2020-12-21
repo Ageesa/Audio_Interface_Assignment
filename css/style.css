@@ -4,7 +4,7 @@ body{
     background: linear-gradient(-45deg, #e66465, #cf6ad8,#cc45f5, #9a64fd, #6466fd,#51abff, #26b7db, #72e2ae ); 
     background-size: 400% 400%;
     position: relative;
-    animation: change 30s ease-in-out infinite;
+    animation: change 20s ease-in-out infinite;
     }
 
     @keyframes change {
@@ -38,40 +38,44 @@ body{
         color: rgb(255, 255, 255);
     margin: 0 auto;
     text-align: center;
-        
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
     }
 
    
   
 
     /*----------------popup-------------------------------------------------------------------------------*/
+
+    .place{
+        min-height: 320px;
+    }
     .popup{
-        height:300px;
+        margin: 0 auto ;
+        height:355px;
         align-items: center;
-        background-color: coral 1.10;
-    
+        background-color: aliceblue;
+        max-width: 500px;
+        border-radius: 10px 10px;
+    display: none;
+    opacity: 0.8;
     }
-    .popupshow{
-        height: 300px;
-        visibility: visible;
-        align-items: center;
-        background-color: coral;
-      
-    }
+  
    
     .destinations {
         display: block;
         margin: 20px auto;
+        padding-top: 30px;
     height:250px;
-    width: 50%;
+    width: 80%;
+
     }
     #ps{
-        width: 5%;
+        width: 40px;
     }
     
     /*----------------------------fLag----------------------------------------------------------------------------*/
     .grid-container {
-        margin: 20px auto;
+        margin: 10px auto;
         display: grid;
         grid-template-columns: auto auto auto;
         background-color: #2196F3, 0.01;
