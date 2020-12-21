@@ -25,7 +25,7 @@ body{
         margin: 0 auto;
     }
     
-    /* -----------------------------------Page heading and info text--------------------------------------------------*/
+    /* -----------------------------------Page heading and info*/
     h1{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: aliceblue;
@@ -67,25 +67,28 @@ body{
     }
     #ps{
         width: 5%;
-        margin-bottom:250px ;
     }
     
     /*----------------------------fLag----------------------------------------------------------------------------*/
     .grid-container {
-        margin: 50px 01;
+        margin: 20px auto;
         display: grid;
         grid-template-columns: auto auto auto;
-        background-color: #2196F3;
+        background-color: #2196F3, 0.01;
         padding: 10px;
       }
       .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
-        border: 1px solid rgba(0, 0, 0, 0.8);
+        background-color: rgba(255, 255, 255, 0.01);
+        border: 1px solid rgba(0, 0, 0, 0.001);
         padding: 20px;
         font-size: 20px;
         text-align: center;
       }
     
+    h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(212, 218, 221);   
+    }
     .flg:hover {
         animation:shake 0.8s linear infinite;
         cursor: pointer;
