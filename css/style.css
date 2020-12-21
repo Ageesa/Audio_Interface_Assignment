@@ -1,10 +1,31 @@
+
+/*gradient background animation*/
 body{
     background: linear-gradient(-45deg, #e66465, #cf6ad8,#cc45f5, #9a64fd, #6466fd,#51abff, #26b7db, #72e2ae ); 
     background-size: 400% 400%;
     position: relative;
     animation: change 30s ease-in-out infinite;
     }
+
+    @keyframes change {
+        0%{
+            background-position: 0% 50%;
+        }
+       50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+    /*conatiner*/
+    .container{
+        max-width: 1000px;
+        display: block;
+        margin: 0 auto;
+    }
     
+    /* -----------------------------------Page heading and info text--------------------------------------------------*/
     h1{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: aliceblue;
@@ -19,26 +40,11 @@ body{
     text-align: center;
         
     }
-    
-    @keyframes change {
-        0%{
-            background-position: 0% 50%;
-        }
-       50%{
-            background-position: 100% 50%;
-        }
-        100%{
-            background-position: 0% 50%;
-        }
-    }
-    
-    .container{
-        max-width: 1000px;
-        display: block;
-        margin: 0 auto;
-    }
-    
-    /*popup*/
+
+   
+  
+
+    /*----------------popup-------------------------------------------------------------------------------*/
     .popup{
         height:300px;
         align-items: center;
@@ -52,15 +58,21 @@ body{
         background-color: coral;
       
     }
+   
     .destinations {
         display: block;
         margin: 20px auto;
     height:250px;
     width: 50%;
     }
+    #ps{
+        width: 5%;
+        margin-bottom:250px ;
+    }
     
-    /*fLag*/
+    /*----------------------------fLag----------------------------------------------------------------------------*/
     .grid-container {
+        margin: 50px 01;
         display: grid;
         grid-template-columns: auto auto auto;
         background-color: #2196F3;
