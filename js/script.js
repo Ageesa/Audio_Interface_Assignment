@@ -46,7 +46,7 @@ let playInd = function() { //Music for India
     sfxc.pause()
     sfxb.pause()
     sfxi.play()
-    elePics.src="images/india2.jpg";//Pop up desination pic : India 
+    elePics.src="images/ind.jpg";//Pop up desination pic : India 
     player.style.display="block";// Player made visible
 }
 
